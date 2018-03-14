@@ -487,3 +487,11 @@ display:none;
     font-size: 1.25rem;
   }
 }
+
+/*menu css*/
+.maginTop{
+    margin-top: 85px;
+}
+.landingImg{
+   width: 100%;
+}
