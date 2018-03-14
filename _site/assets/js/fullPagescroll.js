@@ -1,4 +1,7 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage();
+    $('#fullpage').fullpage({
+     scrollBar:true
+    });
     $('#secondDiv').fullpage();
+   
 });
