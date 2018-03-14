@@ -1,24 +1,155 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
-<meta name="generator" content="Jekyll v3.7.3" />
-<meta property="og:title" content="Your awesome title" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
-<meta property="og:site_name" content="Your awesome title" />
-<script type="application/ld+json">
-{"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","url":"http://localhost:4000/404.html","headline":"Your awesome title","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
+<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="icon" type="ico" href="../assets/images/favicon.ico">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta property="og:title" title="" />
+<meta property="og:image" content="https://groome.co/" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://groome.co/" />
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="Robots" content="index,follow">
+   
+   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/reset.css">
+   <link rel="stylesheet" href="/css/menu.css">
+   
+   
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/rss+xml" title="Groome - HR and Staffing solution" href="/feed.xml">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <script src="/assets/js/modernizr.js"></script>
+    
+    
+</head>
+<!-- 
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid Mainmenu">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#"><img class="Mainmenu__Logo" src="../assets/images/Groome_Logo-02.svg"/></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        
+        <ul class="nav navbar-nav navbar-right Mainmenu__links">
+          <li><a href="#"><span>Sales</span></a></li>
+          <li><a href="#"><span >Operation</span></a></li>
+          <li><a href="#"><span >Recruitment</span></a></li>
+          <li><a href="#"><span >Services</span></a></li>
+          <li><a href="#"><span >Services</span></a></li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+<body>
+  <header class="cd-header">
+		<div class="cd-logo"><a href="#0"><img src="../assets/images/Groome_Logo-02.svg" alt="Logo"></a></div>
+
+		<nav>
+			<ul class="cd-secondary-nav">
+				<li><a href="/work">Work</a></li>
+       <li><a href="#0">Prctice</a></li>
+        <li><a href="#0">About</a></li>
+        <li><a><button>Request Demo</button></a></li>
+        
+        
+        
+			</ul>
+		</nav> <!-- cd-nav -->
+
+		<a class="cd-primary-nav-trigger" href="#0">
+			<span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span>
+		</a> <!-- cd-primary-nav-trigger -->
+	</header>
+
+	<nav>
+		<ul class="cd-primary-nav">
+			
+				<li><a href="/work">Work</a></li>
+       <li><a href="#">Prctice</a></li>
+        <li><a href="#0">About</a></li>
+      <li><a><button>Request Demo</button></a></li>
+
+
+		</ul>
+	</nav>
+  <script>
+  jQuery(document).ready(function($){
+    //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+    var MQL = 1170;
+  
+    //primary navigation slide-in effect
+    if($(window).width() > MQL) {
+      var headerHeight = $('.cd-header').height();
+      $(window).on('scroll',
+      {
+            previousTop: 0
+        }, 
+        function () {
+          var currentTop = $(window).scrollTop();
+          //check if user is scrolling up
+          if (currentTop < this.previousTop ) {
+            //if scrolling up...
+            if (currentTop > 0 && $('.cd-header').hasClass('is-fixed')) {
+              $('.cd-header').addClass('is-visible');
+            } else {
+              $('.cd-header').removeClass('is-visible is-fixed');
+            }
+          } else {
+            //if scrolling down...
+            $('.cd-header').removeClass('is-visible');
+            if( currentTop > headerHeight && !$('.cd-header').hasClass('is-fixed')) $('.cd-header').addClass('is-fixed');
+          }
+          this.previousTop = currentTop;
+      });
+    }
+  
+    //open/close primary navigation
+    $('.cd-primary-nav-trigger').on('click', function(){
+      $('.cd-menu-icon').toggleClass('is-clicked'); 
+      $('.cd-header,.cd-primary-nav-trigger').toggleClass('menubar');
+      $('.cd-logo').toggle();
+      
+      //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
+      if( $('.cd-primary-nav').hasClass('is-visible') ) {
+        $('.cd-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+          $('body').removeClass('overflow-hidden');
+        });
+      } else {
+        $('.cd-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+          $('body').addClass('overflow-hidden');
+
+        });	
+      }
+    });
+  });
+  
+  
+  
+  
+</script>
+  
 <body><header class="site-header" role="banner">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Your sa title</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -30,7 +161,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/">Little Brahma - A creative studio based in Bangalore, India</a><a class="page-link" href="/product/">Product - Sales CRM and Application Tracking System | Groome</a><a class="page-link" href="/work/">Expertise - Take the help from our hiring work</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -57,30 +188,11 @@
 </div>
 
       </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Your awesome title</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
-</div>
-
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
-    </div>
-
-  </div>
+    </main><footer class="Groome-footer">
+    
 
 </footer>
 </body>
+</html></body>
 
 </html>
