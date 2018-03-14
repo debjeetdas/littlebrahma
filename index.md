@@ -1,6 +1,9 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+
+layout: index
+title: Little Brahma - A creative studio based in Bangalore, India
+permalink: /
+description: Little Brahma is a bangalore based creative studio where we provide services such as branding, web & mobile app,illustration & art, packaging & label, magazines & books and animation
+keywords: mobile/Web apps , digital innovations
+
 ---
