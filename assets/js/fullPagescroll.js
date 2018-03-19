@@ -1,7 +1,3 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage({
-     scrollBar:true
-    });
-    $('#secondDiv').fullpage();
-   
+    $('.dicContents .title').clone().prependTo(".imgContainer").addClass("hckTitle");
 });

@@ -53,7 +53,7 @@ html, body {
 }
 
 .cd-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background:white;
